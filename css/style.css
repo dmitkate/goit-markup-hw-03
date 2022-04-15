@@ -214,6 +214,17 @@ body{
     width: 270px;
     
 }
+.teem-part-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 0;
+
+}
 .teem-part .conteiner{
     padding-bottom: 94px;
 }
@@ -270,6 +281,7 @@ body{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--down-section);
+    margin-bottom: 20px;
    
 }
 .footer-navigation{
@@ -283,9 +295,18 @@ body{
 .adress-footer{
     font-style: normal;
 }
-.adress-footer p{
-    padding-top: 9px;
+
+.adress-footer .list{
+ 
     padding-bottom: 9px;
+}
+.adress-footer .list:first-child {
+
+    padding-top: 20px;
+}
+.adress-footer .list:last-child {
+
+    padding-bottom: 0px;
 }
 
 /* -----Portfolio-----*/
