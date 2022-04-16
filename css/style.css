@@ -320,6 +320,11 @@ body{
 
     margin-bottom: 0px;
 }
+.adress-footer img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* -----Portfolio-----*/
 .portfolio-section {
