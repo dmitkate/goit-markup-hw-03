@@ -44,6 +44,11 @@ body{
     padding: 0 15px 0 15px;
    /* outline: 2px solid tomato;*/
 }
+.head {
+    display: flex;
+    align-items: center;
+  
+}
 .header{
     display: flex;
     align-items: center;
