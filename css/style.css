@@ -120,22 +120,28 @@ body{
 
 /* -----Hero-----*/
 .hero{
-    padding-top: 204px;
-    padding-bottom: 276px;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--footer-bcg);
     text-align: center;
     
 }
 .hero-text{
+
+    width: 696px;
     color: var(--paragraf-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    
+    text-transform: uppercase;
     letter-spacing: 0.06em;
-    margin-bottom: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 .button{
+
     color: var(--paragraf-color);
     background-color: var(--accent);
     font-family: 'Roboto', sans-serif;
@@ -386,8 +392,7 @@ body{
     margin-right: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid var(--border-portgolio);
-    border-left: 1px solid var(--border-portgolio);
-    border-right: 1px solid var(--border-portgolio);
+    
 }
 
 
